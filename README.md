@@ -50,3 +50,21 @@
 ```
 
 4. Register for a Cloudinary Account and add Cloudname, ApiKey, and Api secret to appsettings.json.
+
+---
+
+## 📸 UI Preview
+
+| Preview | Description |
+|--------|-------------|
+| <img src="screenshots/login.png" width="500"/> | **Login Page** |
+| <img src="screenshots/dashboard.png" width="500"/> | **Sales Overview** |
+| <img src="screenshots/product.png" width="500"/> | **Product Management** |
+| <img src="screenshots/category.png" width="500"/> | **Category List** |
+| <img src="screenshots/order.png" width="500"/> | **Order Tracking** |
+| <img src="screenshots/payment.png" width="500"/> | **Payment Status** |
+| <img src="screenshots/shipping.png" width="500"/> | **Delivery Info** |
+| <img src="screenshots/incomestatement.png" width="500"/> | **Earnings Chart** |
+| <img src="screenshots/productreview.png" width="500"/> | **User Feedback** |
+| <img src="screenshots/productreport.png" width="500"/> | **User Reports** |
+| <img src="screenshots/coupon.png" width="500"/> | **Promo Code Manager** |
