@@ -1,59 +1,63 @@
-## EcoMart Admin
+# EcoMart Admin
 
-**EcoMart Admin** is a modern web-based dashboard for managing e-commerce operations — from products, orders, payments, users, to real-time analytics. Built for performance and ease of use, it empowers administrators to monitor and streamline store activities efficiently.
+**EcoMart Admin** is a modern web dashboard for managing e-commerce operations — products, orders, payments, users, and analytics — built for speed, efficiency, and ease of use.
+
+![GitHub repo size](https://img.shields.io/github/repo-size/raffyhidayatulloh/ecomart-admin)
+![GitHub issues](https://img.shields.io/github/issues/raffyhidayatulloh/ecomart-admin)
+![GitHub forks](https://img.shields.io/github/forks/raffyhidayatulloh/ecomart-admin)
+![GitHub stars](https://img.shields.io/github/stars/raffyhidayatulloh/ecomart-admin)
 
 ---
 
 ## 🚀 Features
 
-- 🔐 Login – Secure access for authorized admins.
-- 📊 Dashboard – Real-time analytics: sales, orders, top products.
-- 📦 Products – Manage inventory, edit, delete, filter, and add new products.
-- 🗂 Categories – Organize and manage product categories.
-- 🛒 Orders – Track orders, status updates, and customer details.
-- 💳 Payments – Monitor transaction status and payment methods.
-- 🚚 Shipping – Track delivery status and shipment data.
-- 📈 Income Statement – Visualize monthly/yearly revenue trends.
-- ⭐ Product Reviews – Review feedback and product ratings.
-- 📣 Reports – Handle user-submitted reports (e.g., damaged items).
-- 🎟 Coupons – Create and manage time-limited discount codes.
+- 🔐 **Login** – Secure admin access  
+- 📊 **Dashboard** – Real-time analytics: sales, orders, top products  
+- 📦 **Products** – Add, edit, delete, filter, manage inventory  
+- 🗂 **Categories** – Organize and manage product categories  
+- 🛒 **Orders** – Track orders, status updates, and customer info  
+- 💳 **Payments** – Monitor transaction status and methods  
+- 🚚 **Shipping** – Track delivery status and shipments  
+- 📈 **Income Statement** – Monthly/yearly revenue trends  
+- ⭐ **Product Reviews** – User feedback and ratings  
+- 📣 **Reports** – Handle user-submitted reports  
+- 🎟 **Coupons** – Create and manage discount codes  
 
 ---
 
 ## 🛠 Tech Stack
 
-- Backend: ASP.NET Core MVC
-- Frontend: Razor Views, Bootstrap 5
-- Database: SQL Server
-- ORM: Entity Framework Core
-- Authentication: Identity Framework
-- Media Management: Cloudinary API
-- Charts: Chart.js
-- Tools: Visual Studio 2022
+- **Backend:** ASP.NET Core MVC  
+- **Frontend:** Razor Views, Bootstrap 5  
+- **Database:** SQL Server, Entity Framework Core  
+- **Authentication:** Identity Framework  
+- **Media:** Cloudinary API  
+- **Charts:** Chart.js  
+- **IDE:** Visual Studio 2022  
 
 ---
 
 ## ⚙️ Getting Started
 
-1. Go into directory where you plan on keeping project and run.
+1. Fork or clone the repository:
 
 ```bash
-  git fork https://github.com/raffyhidayatulloh/EcoMart-Admin.git
+  git fork https://github.com/raffyhidayatulloh/ecomart-admin.git
 ```
 
 2. Create a local SQL Server database.
 
-3. Add connection string to app settings.json. It will look something like this:
+3. Add connection string in `settings.json`:
 
 ```bash
   Data Source=.\\SQLEXPRESS;Initial Catalog=EcoMart;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False
 ```
 
-4. Register for a Cloudinary Account and add Cloudname, ApiKey, and Api secret to appsettings.json.
+4. Register for a Cloudinary Account and add Cloudname, ApiKey, and Api secret to `appsettings.json`.
 
 ---
 
-## 📸 UI Preview
+## 📸 Screenshots
 
 | Preview | Description |
 |--------|-------------|
